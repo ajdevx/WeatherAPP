@@ -1,0 +1,41 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    font-family: "poppins";
+}
+#container{
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh;
+}
+.ask{
+ font-size: 4vh;
+}
+button{
+    padding: 2vh;
+}
+.search{
+    padding: 6px;
+    margin: 2vh;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
